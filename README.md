@@ -1,6 +1,6 @@
 # The World in One Image — Friday 20 November 2026
 
-A single 1024×1024 front page brings together 12 lead stories and 26 briefs from Friday’s world news. `draw.py` renders `entry.png` from `stories.json` with Pillow, and `main.py` is the contest program that copies the image to the requested output directory.
+A single 1024×1024 front page brings together 12 lead stories and 24 briefs from Friday’s world news. `draw.py` renders `entry.png` from `stories.json` with Pillow, and `main.py` is the contest program that copies the image to the requested output directory.
 
 Sources: Reuters, BBC, AP and other wires, 20 November 2026.
 
