@@ -1,0 +1,53 @@
+{
+  "cards": [
+    {"n": 1, "region": "MIDDLE EAST", "field": "diplomacy", "icon": "missile", "headline": "TRUMP PUTS IRAN WAR DECISION OFF TO 2027", "detail": "Asked about action against Iran, Trump says he will see what happens after Jan. 1."},
+    {"n": 2, "region": "ASIA-PACIFIC", "field": "law", "icon": "gavel", "headline": "WORLD COURT FINDS MYANMAR COMMITTED GENOCIDE", "detail": "In The Gambia case over Rohingya, the ICJ rules 9–6 on the 2016–17 crackdown."},
+    {"n": 3, "region": "AMERICAS", "field": "business", "icon": "chip", "headline": "ANTHROPIC CLOSES FIRST DAY UP 17%", "detail": "The AI company’s record $81.3bn IPO values it at about $1.76tn at close."},
+    {"n": 4, "region": "EUROPE", "field": "conflict", "icon": "explosion", "headline": "RUSSIAN STRIKES HIT KYIV; EMBASSIES DAMAGED", "detail": "Overnight attacks damage Dutch and Austrian embassy buildings; a residential strike kills one."},
+    {"n": 5, "region": "MIDDLE EAST", "field": "energy", "icon": "tanker", "headline": "ADNOC VESSEL ATTACKED IN STRAIT OF HORMUZ", "detail": "One crew member is missing after an attack; separate reports describe a tanker fire."},
+    {"n": 6, "region": "MIDDLE EAST", "field": "politics", "icon": "ballot", "headline": "HERZOG TAPS EISENKOT TO FORM ISRAELI GOVERNMENT", "detail": "The president tasks Netanyahu challenger Gadi Eisenkot with trying to build a coalition."},
+    {"n": 7, "region": "ASIA-PACIFIC", "field": "weather", "icon": "cyclone", "headline": "CYCLONE AKVAN APPROACHES INDIA’S ODISHA COAST", "detail": "More than 80,000 people are evacuated ahead of expected landfall."},
+    {"n": 8, "region": "ASIA-PACIFIC", "field": "markets", "icon": "chart", "headline": "TAIWAN TIGHTENS RULES AS STOCKS SLIDE", "detail": "Regulators announce stabilising steps and short-sale curbs after a steep three-day fall."},
+    {"n": 9, "region": "EUROPE", "field": "transport", "icon": "drone", "headline": "DRONE SCARE HALTS FLIGHTS AT GENOA AIRPORT", "detail": "Unidentified drones prompt an overnight suspension of airport operations."},
+    {"n": 10, "region": "EUROPE", "field": "diplomacy", "icon": "handshake", "headline": "UKRAINE’S EUROPEAN ALLIES OPEN TO RUSSIA TALKS", "detail": "Leaders in Berlin say Europe has a united negotiating position and is ready for talks."},
+    {"n": 11, "region": "MIDDLE EAST", "field": "humanitarian", "icon": "aid", "headline": "FOUR COUNTRIES URGE AID ACCESS TO FLOODED GAZA", "detail": "Australia, Canada, Italy and the UK call for immediate, unrestricted humanitarian access."},
+    {"n": 12, "region": "SCIENCE", "field": "science", "icon": "telescope", "headline": "GIANT STAR SEEN SWALLOWING ITS COMPANION", "detail": "Astronomers report a seven-year observation of a star engulfing another in Andromeda."}
+  ],
+  "briefs": [
+    {"region": "MIDDLE EAST", "field": "conflict", "text": "Houthis claim strikes on four Saudi targets; Riyadh reports damage to a landmark building."},
+    {"region": "MIDDLE EAST", "field": "conflict", "text": "Israeli airstrike hits a Hezbollah missile facility in eastern Lebanon."},
+    {"region": "MIDDLE EAST", "field": "conflict", "text": "Israeli military completes a ground operation in Gaza beyond the Yellow Line."},
+    {"region": "EUROPE", "field": "politics", "text": "France braces for a fourth weekend of cost-of-living protests."},
+    {"region": "EUROPE", "field": "humanitarian", "text": "One dead and 15 injured after fire in an 18-storey French apartment block."},
+    {"region": "ASIA-PACIFIC", "field": "business", "text": "South Korea’s annual exports pass $1 trillion for the first time."},
+    {"region": "AMERICAS", "field": "business", "text": "California opens a probe into Nvidia AI-chip sales to China."},
+    {"region": "AMERICAS", "field": "business", "text": "Cyber incidents at JPMorgan, Visa and Mastercard expose customer data."},
+    {"region": "AMERICAS", "field": "politics", "text": "Trump posthumously pardons baseball star Pete Rose."},
+    {"region": "AMERICAS", "field": "politics", "text": "Trump backs firing of US cyber chief Sean Cairncross amid tech outages."},
+    {"region": "AMERICAS", "field": "energy", "text": "State Department details $12bn in Venezuelan oil and mineral revenue."},
+    {"region": "ASIA-PACIFIC", "field": "diplomacy", "text": "India–Japan talks: Japanese forces to train on Indian firing ranges from 2027."},
+    {"region": "ASIA-PACIFIC", "field": "diplomacy", "text": "Japan’s Takaichi says Tokyo’s Taiwan stance is unchanged."},
+    {"region": "SCIENCE", "field": "science", "text": "COP31 AI pledge draws no major US technology companies."},
+    {"region": "MIDDLE EAST", "field": "conflict", "text": "BBC reports families trapped as Houthis hold Yemen’s besieged Taiz."},
+    {"region": "ASIA-PACIFIC", "field": "law", "text": "India’s Justice Varma tells parliament resignation is not an admission of guilt."},
+    {"region": "ASIA-PACIFIC", "field": "sports", "text": "India bowl New Zealand out for 368 on day two of Wellington Test."},
+    {"region": "AFRICA", "field": "sports", "text": "South Africa captain Bavuma ruled out of Bangladesh series decider."},
+    {"region": "AMERICAS", "field": "sports", "text": "Wet first practice curtails running at the Las Vegas Grand Prix."},
+    {"region": "AMERICAS", "field": "science", "text": "Fiona the hippo dies at Cincinnati Zoo after swallowing a hat."},
+    {"region": "MIDDLE EAST", "field": "energy", "text": "Oil prices flat as Hormuz disruption offsets oversupply concerns."},
+    {"region": "AMERICAS", "field": "politics", "text": "Trump warns APEC nations strict AI rules could stifle development."},
+    {"region": "AMERICAS", "field": "politics", "text": "Trump returns from China and holds a White House press conference."},
+    {"region": "ASIA-PACIFIC", "field": "business", "text": "Indian public-sector banks post record half-year profit of about ₹1.10 lakh crore."},
+    {"region": "MIDDLE EAST", "field": "conflict", "text": "Israel says it completes withdrawal preparations under Gaza plan."},
+    {"region": "EUROPE", "field": "transport", "text": "Genoa drone scare marks another European airport disruption this month."}
+  ],
+  "numbers": [
+    ["$1.76tn", "Anthropic value at close"],
+    ["+17%", "Anthropic first-day rise"],
+    ["80,000+", "Odisha evacuees reported"],
+    ["5,248", "Taiwan index points lost"],
+    ["9–6", "ICJ vote on Myanmar"],
+    ["$1tn", "South Korea exports, first" ]
+  ],
+  "date_check": "LEFT OUT: Trump–Xi–Putin trilateral summit and peace declaration in Shenzhen (19 Nov) · GTA VI launch and reviews (19 Nov) · Nvidia’s $115.8bn quarter (17 Nov) · US strike on Qeshm Island (18 Nov) · Alaska Senate result giving Democrats a majority (18 Nov)."
+}
