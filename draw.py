@@ -169,7 +169,7 @@ def render():
     tally.update(c["region"] for c in cards)
     region_text = "  ·  ".join(f"{name} {count}" for name, count in sorted(tally.items()))
     d.text((24, 526), "WHERE IT HAPPENED", font=font(11, True), fill=RED)
-    d.text((176, 526), f"REGION {regions}  ·  {region_text}", font=fit_line(d, region_text, 800, 10, 8, bold=True), fill=INK)
+    d.text((176, 526), region_text, font=fit_line(d, region_text, 800, 10, 8, bold=True), fill=INK)
 
     # Briefs in three newspaper columns. Each row gets a measured two-line cell.
     d.line((24, 550, 1000, 550), fill=RULE, width=1)
