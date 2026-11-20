@@ -37,9 +37,7 @@
     {"region": "MIDDLE EAST", "field": "energy", "text": "Oil prices flat as Hormuz disruption offsets oversupply concerns."},
     {"region": "AMERICAS", "field": "politics", "text": "Trump warns APEC nations strict AI rules could stifle development."},
     {"region": "AMERICAS", "field": "politics", "text": "Trump returns from China and holds a White House press conference."},
-    {"region": "ASIA-PACIFIC", "field": "business", "text": "Indian public-sector banks post record half-year profit of about ₹1.10 lakh crore."},
-    {"region": "MIDDLE EAST", "field": "conflict", "text": "Israel says it completes withdrawal preparations under Gaza plan."},
-    {"region": "EUROPE", "field": "transport", "text": "Genoa drone scare marks another European airport disruption this month."}
+    {"region": "ASIA-PACIFIC", "field": "business", "text": "Indian public-sector banks post record half-year profit of about ₹1.10 lakh crore."}
   ],
   "numbers": [
     ["$1.76tn", "Anthropic value at close"],

@@ -174,7 +174,7 @@ def render():
     # Briefs in three newspaper columns. Each row gets a measured two-line cell.
     d.line((24, 550, 1000, 550), fill=RULE, width=1)
     d.text((24, 556), "MORE OF THE DAY", font=font(14, True), fill=INK)
-    d.text((806, 559), "BRIEFS 13–38", font=font(10, True), fill=MUTED)
+    d.text((806, 559), f"BRIEFS 13–{12+len(briefs)}", font=font(10, True), fill=MUTED)
     col_gap, cell_w, row_h = 17, (976-34)//3, 27
     start_y = 580
     brief_font = font(9)
