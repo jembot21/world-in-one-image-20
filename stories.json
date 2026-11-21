@@ -1,51 +1,370 @@
 {
-  "cards": [
-    {"n": 1, "region": "MIDDLE EAST", "field": "diplomacy", "icon": "missile", "headline": "TRUMP PUTS IRAN WAR DECISION OFF TO 2027", "detail": "Asked about action against Iran, Trump says he will see what happens after Jan. 1."},
-    {"n": 2, "region": "ASIA-PACIFIC", "field": "law", "icon": "gavel", "headline": "WORLD COURT FINDS MYANMAR COMMITTED GENOCIDE", "detail": "In The Gambia case over Rohingya, the ICJ rules 9–6 on the 2016–17 crackdown."},
-    {"n": 3, "region": "AMERICAS", "field": "business", "icon": "chip", "headline": "ANTHROPIC CLOSES FIRST DAY UP 17%", "detail": "The AI company’s record $81.3bn IPO values it at about $1.76tn at close."},
-    {"n": 4, "region": "EUROPE", "field": "conflict", "icon": "explosion", "headline": "RUSSIAN STRIKES HIT KYIV; EMBASSIES DAMAGED", "detail": "Overnight attacks damage Dutch and Austrian embassy buildings; a residential strike kills one."},
-    {"n": 5, "region": "MIDDLE EAST", "field": "energy", "icon": "tanker", "headline": "ADNOC VESSEL ATTACKED IN STRAIT OF HORMUZ", "detail": "One crew member is missing after an attack; separate reports describe a tanker fire."},
-    {"n": 6, "region": "MIDDLE EAST", "field": "politics", "icon": "ballot", "headline": "HERZOG TAPS EISENKOT TO FORM ISRAELI GOVERNMENT", "detail": "The president tasks Netanyahu challenger Gadi Eisenkot with trying to build a coalition."},
-    {"n": 7, "region": "ASIA-PACIFIC", "field": "weather", "icon": "cyclone", "headline": "CYCLONE AKVAN APPROACHES INDIA’S ODISHA COAST", "detail": "More than 80,000 people are evacuated ahead of expected landfall."},
-    {"n": 8, "region": "ASIA-PACIFIC", "field": "markets", "icon": "chart", "headline": "TAIWAN TIGHTENS RULES AS STOCKS SLIDE", "detail": "Regulators announce stabilising steps and short-sale curbs after a steep three-day fall."},
-    {"n": 9, "region": "EUROPE", "field": "transport", "icon": "drone", "headline": "DRONE SCARE HALTS FLIGHTS AT GENOA AIRPORT", "detail": "Unidentified drones prompt an overnight suspension of airport operations."},
-    {"n": 10, "region": "EUROPE", "field": "diplomacy", "icon": "handshake", "headline": "UKRAINE’S EUROPEAN ALLIES OPEN TO RUSSIA TALKS", "detail": "Leaders in Berlin say Europe has a united negotiating position and is ready for talks."},
-    {"n": 11, "region": "MIDDLE EAST", "field": "humanitarian", "icon": "aid", "headline": "FOUR COUNTRIES URGE AID ACCESS TO FLOODED GAZA", "detail": "Australia, Canada, Italy and the UK call for immediate, unrestricted humanitarian access."},
-    {"n": 12, "region": "SCIENCE", "field": "science", "icon": "telescope", "headline": "GIANT STAR SEEN SWALLOWING ITS COMPANION", "detail": "Astronomers report a seven-year observation of a star engulfing another in Andromeda."}
-  ],
-  "briefs": [
-    {"region": "MIDDLE EAST", "field": "conflict", "text": "Houthis claim strikes on four Saudi targets; Riyadh reports damage to a landmark building."},
-    {"region": "MIDDLE EAST", "field": "conflict", "text": "Israeli airstrike hits a Hezbollah missile facility in eastern Lebanon."},
-    {"region": "MIDDLE EAST", "field": "conflict", "text": "Israeli military completes a ground operation in Gaza beyond the Yellow Line."},
-    {"region": "EUROPE", "field": "politics", "text": "France braces for a fourth weekend of cost-of-living protests."},
-    {"region": "EUROPE", "field": "humanitarian", "text": "One dead and 15 injured after fire in an 18-storey French apartment block."},
-    {"region": "ASIA-PACIFIC", "field": "business", "text": "South Korea’s annual exports pass $1 trillion for the first time."},
-    {"region": "AMERICAS", "field": "business", "text": "California opens a probe into Nvidia AI-chip sales to China."},
-    {"region": "AMERICAS", "field": "business", "text": "Cyber incidents at JPMorgan, Visa and Mastercard expose customer data."},
-    {"region": "AMERICAS", "field": "politics", "text": "Trump posthumously pardons baseball star Pete Rose."},
-    {"region": "AMERICAS", "field": "politics", "text": "Trump backs firing of US cyber chief Sean Cairncross amid tech outages."},
-    {"region": "AMERICAS", "field": "energy", "text": "State Department details $12bn in Venezuelan oil and mineral revenue."},
-    {"region": "ASIA-PACIFIC", "field": "diplomacy", "text": "India–Japan talks: Japanese forces to train on Indian firing ranges from 2027."},
-    {"region": "ASIA-PACIFIC", "field": "diplomacy", "text": "Japan’s Takaichi says Tokyo’s Taiwan stance is unchanged."},
-    {"region": "SCIENCE", "field": "science", "text": "COP31 AI pledge draws no major US technology companies."},
-    {"region": "MIDDLE EAST", "field": "conflict", "text": "BBC reports families trapped as Houthis hold Yemen’s besieged Taiz."},
-    {"region": "ASIA-PACIFIC", "field": "law", "text": "India’s Justice Varma tells parliament resignation is not an admission of guilt."},
-    {"region": "ASIA-PACIFIC", "field": "sports", "text": "India bowl New Zealand out for 368 on day two of Wellington Test."},
-    {"region": "AFRICA", "field": "sports", "text": "South Africa captain Bavuma ruled out of Bangladesh series decider."},
-    {"region": "AMERICAS", "field": "sports", "text": "Wet first practice curtails running at the Las Vegas Grand Prix."},
-    {"region": "AMERICAS", "field": "science", "text": "Fiona the hippo dies at Cincinnati Zoo after swallowing a hat."},
-    {"region": "MIDDLE EAST", "field": "energy", "text": "Oil prices flat as Hormuz disruption offsets oversupply concerns."},
-    {"region": "AMERICAS", "field": "politics", "text": "Trump warns APEC nations strict AI rules could stifle development."},
-    {"region": "AMERICAS", "field": "politics", "text": "Trump returns from China and holds a White House press conference."},
-    {"region": "ASIA-PACIFIC", "field": "business", "text": "Indian public-sector banks post record half-year profit of about ₹1.10 lakh crore."}
+  "date": "FRIDAY 20 NOVEMBER 2026",
+  "sources": "Sources: Reuters · AP · AFP · BBC",
+  "subhead": "50 stories · one day · every region",
+  "leads": [
+    {
+      "id": 1,
+      "region": "MIDDLE EAST",
+      "section": "DIPLOMACY",
+      "headline": "TRUMP PUTS IRAN WAR DECISION OFF TO 2027",
+      "detail": "Asked about action against Iran, Trump says he will see what happens after Jan. 1.",
+      "location": "Tehran",
+      "map": [
+        0.654,
+        0.54
+      ],
+      "scene": "missile_calendar",
+      "illustration_note": "A missile on a launcher silhouetted against a dusk sky over a desert city skyline, with a large calendar page reading 2027 beside it."
+    },
+    {
+      "id": 2,
+      "region": "ASIA-PACIFIC",
+      "section": "LAW",
+      "headline": "WORLD COURT FINDS MYANMAR COMMITTED GENOCIDE",
+      "detail": "In The Gambia case over Rohingya, the ICJ rules 9-6 on the 2016-17 crackdown.",
+      "location": "Myanmar",
+      "map": [
+        0.807,
+        0.59
+      ],
+      "scene": "court",
+      "illustration_note": "A judge's gavel above a set of scales, courthouse columns behind."
+    },
+    {
+      "id": 3,
+      "region": "AMERICAS",
+      "section": "BUSINESS",
+      "headline": "ANTHROPIC CLOSES FIRST DAY UP 17%",
+      "detail": "The AI company's record $81.3bn IPO values it at about $1.76tn at close.",
+      "location": "San Francisco",
+      "map": [
+        0.158,
+        0.52
+      ],
+      "scene": "ipo",
+      "illustration_note": "A microchip with a bold green rising arrow and bar chart breaking through its top, city skyline below."
+    },
+    {
+      "id": 4,
+      "region": "EUROPE",
+      "section": "CONFLICT",
+      "headline": "RUSSIAN STRIKES HIT KYIV; EMBASSIES DAMAGED",
+      "detail": "Overnight attacks damage Dutch and Austrian embassy buildings; a residential strike kills one.",
+      "location": "Kyiv",
+      "map": [
+        0.542,
+        0.39
+      ],
+      "scene": "kyiv",
+      "illustration_note": "A night skyline with two bright explosion bursts and a damaged apartment block, searchlight beams."
+    },
+    {
+      "id": 5,
+      "region": "MIDDLE EAST",
+      "section": "ENERGY",
+      "headline": "ADNOC VESSEL ATTACKED IN STRAIT OF HORMUZ",
+      "detail": "One crew member is missing after an attack; separate reports describe a tanker fire.",
+      "location": "Strait of Hormuz",
+      "map": [
+        0.654,
+        0.57
+      ],
+      "scene": "tanker",
+      "illustration_note": "A large oil tanker on stylised waves passing through a narrow strait between two headlands, a small fire/smoke plume at its stern."
+    },
+    {
+      "id": 6,
+      "region": "MIDDLE EAST",
+      "section": "POLITICS",
+      "headline": "HERZOG TAPS EISENKOT TO FORM ISRAELI GOVERNMENT",
+      "detail": "The president tasks Netanyahu challenger Gadi Eisenkot with trying to build a coalition.",
+      "location": "Jerusalem",
+      "map": [
+        0.596,
+        0.55
+      ],
+      "scene": "ballot",
+      "illustration_note": "A ballot paper sliding into a ballot box in front of a domed parliament building."
+    },
+    {
+      "id": 7,
+      "region": "ASIA-PACIFIC",
+      "section": "WEATHER",
+      "headline": "CYCLONE AKVAN APPROACHES INDIA'S ODISHA COAST",
+      "detail": "More than 80,000 people are evacuated ahead of expected landfall.",
+      "location": "Odisha coast",
+      "map": [
+        0.752,
+        0.63
+      ],
+      "scene": "cyclone",
+      "illustration_note": "A big spiral cyclone seen from the side/front over a curving coastline, bent palm trees, a line of tiny figures with bundles walking inland along an arrow."
+    },
+    {
+      "id": 8,
+      "region": "ASIA-PACIFIC",
+      "section": "MARKETS",
+      "headline": "TAIWAN TIGHTENS RULES AS STOCKS SLIDE",
+      "detail": "Regulators announce stabilising steps and short-sale curbs after a steep three-day fall.",
+      "location": "Taiwan",
+      "map": [
+        0.836,
+        0.52
+      ],
+      "scene": "stocks",
+      "illustration_note": "A steeply falling red stock chart line with a large hand pressing a STOP octagon onto it."
+    },
+    {
+      "id": 9,
+      "region": "EUROPE",
+      "section": "TRANSPORT",
+      "headline": "DRONE SCARE HALTS FLIGHTS AT GENOA AIRPORT",
+      "detail": "Unidentified drones prompt an overnight suspension of airport operations.",
+      "location": "Genoa",
+      "map": [
+        0.525,
+        0.46
+      ],
+      "scene": "airport",
+      "illustration_note": "A quadcopter drone hovering over an airport runway at night, a parked passenger plane with its lights off, a control tower."
+    },
+    {
+      "id": 10,
+      "region": "EUROPE",
+      "section": "DIPLOMACY",
+      "headline": "UKRAINE'S EUROPEAN ALLIES OPEN TO RUSSIA TALKS",
+      "detail": "Leaders in Berlin say Europe has a united negotiating position and is ready for talks.",
+      "location": "Berlin",
+      "map": [
+        0.535,
+        0.43
+      ],
+      "scene": "talks",
+      "illustration_note": "Two hands shaking across a table over a simple map outline, two small flags behind."
+    },
+    {
+      "id": 11,
+      "region": "MIDDLE EAST",
+      "section": "HUMANITARIAN",
+      "headline": "FOUR COUNTRIES URGE AID ACCESS TO FLOODED GAZA",
+      "detail": "Australia, Canada, Italy and the UK call for immediate, unrestricted humanitarian access.",
+      "location": "Gaza",
+      "map": [
+        0.59,
+        0.55
+      ],
+      "scene": "aid",
+      "illustration_note": "Aid trucks with AID crates beside tents standing in floodwater under rain streaks."
+    },
+    {
+      "id": 12,
+      "region": "SCIENCE",
+      "section": "ASTRONOMY",
+      "headline": "GIANT STAR SEEN SWALLOWING ITS COMPANION",
+      "detail": "Astronomers report a seven-year observation of a star engulfing another in Andromeda.",
+      "location": "Andromeda",
+      "map": null,
+      "scene": "star",
+      "illustration_note": "Deep-space panel: one large glowing star pulling a spiral stream of light from a smaller companion star, a small telescope silhouette at the bottom corner."
+    }
   ],
   "numbers": [
-    ["$1.76tn", "Anthropic value at close"],
-    ["+17%", "Anthropic first-day rise"],
-    ["80,000+", "Odisha evacuees reported"],
-    ["5,248", "Taiwan index points lost"],
-    ["9–6", "ICJ vote on Myanmar"],
-    ["$1tn", "South Korea exports, first" ]
+    {
+      "value": "$1.76tn",
+      "caption": "Anthropic value at close",
+      "amount": 0.88,
+      "scale": "money"
+    },
+    {
+      "value": "+17%",
+      "caption": "Anthropic first-day rise",
+      "amount": 0.68,
+      "scale": "percent"
+    },
+    {
+      "value": "80,000+",
+      "caption": "Odisha evacuees reported",
+      "amount": 0.82,
+      "scale": "people"
+    },
+    {
+      "value": "5,248",
+      "caption": "Taiwan index points lost",
+      "amount": 0.72,
+      "scale": "points"
+    },
+    {
+      "value": "9-6",
+      "caption": "ICJ vote on Myanmar",
+      "amount": 0.6,
+      "split": [
+        9,
+        6
+      ],
+      "scale": "vote"
+    },
+    {
+      "value": "$1tn",
+      "caption": "South Korea exports, a first",
+      "amount": 0.74,
+      "scale": "money"
+    }
   ],
-  "date_check": "LEFT OUT: Trump–Xi–Putin trilateral summit and peace declaration in Shenzhen (19 Nov) · GTA VI launch and reviews (19 Nov) · Nvidia’s $115.8bn quarter (17 Nov) · US strike on Qeshm Island (18 Nov) · Alaska Senate result giving Democrats a majority (18 Nov)."
+  "briefs": [
+    {
+      "region": "MIDDLE EAST",
+      "text": "Houthis claim strikes on four Saudi targets; Riyadh reports damage to a landmark building."
+    },
+    {
+      "region": "MIDDLE EAST",
+      "text": "Israeli airstrike hits a Hezbollah missile facility in eastern Lebanon."
+    },
+    {
+      "region": "MIDDLE EAST",
+      "text": "Israeli military completes a ground operation in Gaza beyond the Yellow Line."
+    },
+    {
+      "region": "EUROPE",
+      "text": "France braces for a fourth weekend of cost-of-living protests."
+    },
+    {
+      "region": "EUROPE",
+      "text": "One dead and 15 injured after fire in an 18-storey French apartment block."
+    },
+    {
+      "region": "ASIA-PACIFIC",
+      "text": "South Korea's annual exports pass $1 trillion for the first time."
+    },
+    {
+      "region": "AMERICAS",
+      "text": "California opens a probe into Nvidia AI-chip sales to China."
+    },
+    {
+      "region": "AMERICAS",
+      "text": "Cyber incidents at JPMorgan, Visa and Mastercard expose customer data."
+    },
+    {
+      "region": "AMERICAS",
+      "text": "Trump posthumously pardons baseball star Pete Rose."
+    },
+    {
+      "region": "AMERICAS",
+      "text": "Trump backs firing of US cyber chief Sean Cairncross amid tech outages."
+    },
+    {
+      "region": "AMERICAS",
+      "text": "State Department details $12bn in Venezuelan oil and mineral revenue."
+    },
+    {
+      "region": "ASIA-PACIFIC",
+      "text": "India-Japan talks: Japanese forces to train on Indian firing ranges from 2027."
+    },
+    {
+      "region": "ASIA-PACIFIC",
+      "text": "Japan's Takaichi says Tokyo's Taiwan stance is unchanged."
+    },
+    {
+      "region": "SCIENCE",
+      "text": "COP31 AI pledge draws no major US technology companies."
+    },
+    {
+      "region": "MIDDLE EAST",
+      "text": "BBC reports families trapped as Houthis hold Yemen's besieged Taiz."
+    },
+    {
+      "region": "ASIA-PACIFIC",
+      "text": "India's Justice Varma tells parliament resignation is not an admission of guilt."
+    },
+    {
+      "region": "ASIA-PACIFIC",
+      "text": "India bowl New Zealand out for 368 on day two of Wellington Test."
+    },
+    {
+      "region": "AFRICA",
+      "text": "South Africa captain Bavuma ruled out of Bangladesh series decider."
+    },
+    {
+      "region": "AMERICAS",
+      "text": "Wet first practice curtails running at the Las Vegas Grand Prix."
+    },
+    {
+      "region": "AMERICAS",
+      "text": "Fiona the hippo dies at Cincinnati Zoo after swallowing a hat."
+    },
+    {
+      "region": "MIDDLE EAST",
+      "text": "Oil prices flat as Hormuz disruption offsets oversupply concerns."
+    },
+    {
+      "region": "AMERICAS",
+      "text": "Trump warns APEC nations strict AI rules could stifle development."
+    },
+    {
+      "region": "AMERICAS",
+      "text": "Trump returns from China and holds a White House press conference."
+    },
+    {
+      "region": "ASIA-PACIFIC",
+      "text": "Indian public-sector banks post record half-year profit of about Rs 1.10 lakh crore."
+    },
+    {
+      "region": "MIDDLE EAST",
+      "text": "US Navy blockades Iranian shipping in the Strait of Hormuz; Tehran threatens Gulf oil facilities."
+    },
+    {
+      "region": "EUROPE",
+      "text": "COP31 in Antalya: activists denounce the draft text as fossil-fuel talks stall."
+    },
+    {
+      "region": "AMERICAS",
+      "text": "US embassy in Mexico: Chinese chemical precursors were bound for the Sinaloa cartel."
+    },
+    {
+      "region": "WORLD",
+      "text": "Bessent: Trump and Xi agree humans must oversee military AI decisions."
+    },
+    {
+      "region": "EUROPE",
+      "text": "Ukrainian strikes bring down a Crimean Bridge span; fuel limits imposed in Sevastopol."
+    },
+    {
+      "region": "EUROPE",
+      "text": "Kramatorsk: an aerial bomb hits a bus, killing at least 30 people."
+    },
+    {
+      "region": "WORLD",
+      "text": "Microsoft 365 outage disrupts Outlook and Teams worldwide for over nine hours."
+    },
+    {
+      "region": "ASIA-PACIFIC",
+      "text": "Two Russian Tu-95 bombers enter Taiwan's air-defence zone; Taipei scrambles jets."
+    },
+    {
+      "region": "EUROPE",
+      "text": "German police arrest two Dutch nationals suspected of a Frankfurt bomb plot."
+    },
+    {
+      "region": "EUROPE",
+      "text": "Hungary lifts its veto on opening EU accession negotiating clusters with Ukraine."
+    },
+    {
+      "region": "AFRICA",
+      "text": "Johannesburg: ANC seeks a coalition without the DA, which topped the municipal polls."
+    },
+    {
+      "region": "AFRICA",
+      "text": "Gambia: a candidate withdraws, leaving eight in the 5 December presidential race."
+    },
+    {
+      "region": "AMERICAS",
+      "text": "California voters reject a billionaire tax; Washington keeps its millionaire levy."
+    },
+    {
+      "region": "ASIA-PACIFIC",
+      "text": "New Zealand court rules the government's pay-equity reform violated women's rights."
+    }
+  ],
+  "date_check": "LEFT OUT (other days): Trump-Xi-Putin trilateral summit and peace declaration in Shenzhen (19 Nov) - GTA VI launch and reviews (19 Nov) - Nvidia's $115.8bn quarter (17 Nov) - US strike on Qeshm Island (18 Nov) - Alaska Senate result giving Democrats a majority (18 Nov).",
+  "closing": "All stories first reported Friday 20 November 2026"
 }

@@ -1,8 +1,8 @@
-# The World in One Image — Friday 20 November 2026
+# Friday 20 November 2026 — The World in One Image
 
-A single 1024×1024 front page brings together 12 lead stories and 24 briefs from Friday’s world news. `draw.py` renders `entry.png` from `stories.json` with Pillow, and `main.py` is the contest program that copies the image to the requested output directory.
+This illustrated front page gathers 12 lead stories with a pinned world map, a numbers strip and 38 briefs: 50 stories from one day. `draw.py` renders the page with Pillow from `stories.json`; `main.py` is the contest program, with a vendored Pillow bootstrap for the standard-library-only sandbox.
 
-Sources: Reuters, BBC, AP and other wires, 20 November 2026.
+Sources: Reuters · AP · AFP · BBC
 
 [![Make.fun rank](https://make.fun/badge/news-image-20261120/jembot21/world-in-one-image-20/rank.svg)](https://make.fun/bounty/news-image-20261120)
 [![Make.fun reward](https://make.fun/badge/news-image-20261120/jembot21/world-in-one-image-20/reward.svg)](https://make.fun/bounty/news-image-20261120)
